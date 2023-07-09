@@ -1,0 +1,32 @@
+Model: "rus, adam optimizer, relu activation for input and single hidden layer, sigmoid activation for output layer, loss='binary_crossentropy', metrics=['accuracy', 'recall'], epochs=10, batch_size=32"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_39 (Dense)            (None, 64)                2112      
+                                                                 
+ dense_40 (Dense)            (None, 64)                4160      
+                                                                 
+ dense_41 (Dense)            (None, 1)                 65        
+                                                                 
+=================================================================
+Total params: 6,337
+Trainable params: 6,337
+Non-trainable params: 0
+_________________________________________________________________
+
+I'm not going to include all of the actual weights and biases because I feel like that would be unnecessary for the purposes of this document. 
+
+Recall: 0.577
+F1: 0.485
+Precision: 0.419
+Accuracy: 0.611
+
+Features:
+'Neuter_status', 'Aggression_owner', 'Aggression_cats', 'Shyness_novel',
+       'Shyness_strangers', 'Grooming', 'Breed_group_ABY', 'Breed_group_BEN',
+       'Breed_group_BRI', 'Breed_group_BUR', 'Breed_group_CRX',
+       'Breed_group_DRX', 'Breed_group_EUR', 'Breed_group_HCS',
+       'Breed_group_KOR', 'Breed_group_MCO', 'Breed_group_NFO',
+       'Breed_group_ORI', 'Breed_group_PER', 'Breed_group_RAG',
+       'Breed_group_RUS', 'Breed_group_SBI', 'Breed_group_SIB',
+       'Breed_group_TUV', 'Breed_group_other'
