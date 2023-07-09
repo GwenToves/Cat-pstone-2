@@ -1,5 +1,5 @@
 # Wool-Sucking Cat Adoption Predictive Modeling
-<img src="..\images\cat-sucking-on-blanket-scaled.jpg" alt="Alt Text" width="400" height="300">
+<img src=".\images\cat-sucking-on-blanket-scaled.jpg" alt="Alt Text" width="400" height="300">
 
 **Welcome to the Wool-Sucking Cat Adoption Predictive Modeling project!** 
 This repository contains the findings and conclusions of Cat-pstone 1 and Cat-pstone 2, which aimed to develop a predictive model for distinguishing wool-sucking cats from non-suckers. Our ultimate goal was to enhance the cat adoption process and provide better matches between cats and potential owners. The general backstory is that BuddyTheCat, a famous ClikClok influencer, has increased demand for wool-sucking kitties. Unfortunately, however, this behavioral trait is hard to assess manually as it takes a lot of time and trust from the animal. 
