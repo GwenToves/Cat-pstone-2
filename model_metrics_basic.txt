@@ -30,3 +30,31 @@ Features:
        'Breed_group_ORI', 'Breed_group_PER', 'Breed_group_RAG',
        'Breed_group_RUS', 'Breed_group_SBI', 'Breed_group_SIB',
        'Breed_group_TUV', 'Breed_group_other'
+       
+Model: "log reg with class_weights=balanced"
+
+1: Breed_group_RUS -0.77
+2: Breed_group_ORI 0.55
+3: Breed_group_KOR 0.5
+4: Breed_group_PER -0.44
+5: Grooming 0.43
+6: Breed_group_SBI 0.43
+7: Breed_group_BRI -0.39
+8: Breed_group_other -0.29
+9: Breed_group_HCS 0.27
+10: Breed_group_TUV 0.25
+11: Breed_group_BUR -0.2
+12: Breed_group_SIB -0.2
+13: Neuter_status 0.2
+14: Breed_group_NFO 0.19
+15: Aggression_owner 0.17
+16: Breed_group_BEN 0.17
+17: Breed_group_MCO 0.17
+18: Breed_group_EUR -0.15
+19: Shyness_novel 0.12
+20: Breed_group_ABY -0.06
+21: Breed_group_RAG -0.05
+22: Breed_group_DRX 0.05
+23: Shyness_strangers -0.04
+24: Aggression_cats 0.04
+25: Breed_group_CRX -0.03
